@@ -1,0 +1,166 @@
+
+@media print{
+    body{
+     
+     visibility:collapse;
+     margin:0; padding:0;
+    }
+     .tm-main-content>#home,.tm-content-box.flex-2-col{
+         visibility: visible;
+ 
+     }
+     
+     h2.tm-section-title{
+         color: blue;
+     }
+     p.tm-section-description::first-letter{
+         initial-letter: 2;
+         clear: right;
+         font-size: 36px;
+         color: aqua;
+     }
+   
+     .padding-medium.flex-item.flex-item p:first-of-type{
+         font-style: italic;
+     }
+     .padding-medium.flex-item.flex-item{
+         margin-top: -49px;
+     }
+     .tm-footer p.text-xs-center::first-letter{
+         initial-letter: 2;
+         font-size: 36px;
+         color: aqua;
+     }
+     p.tm-section-description{
+         font-size: 20px;
+         width: 60%;
+         text-indent: 19px;
+     }
+     body{
+         width: 600px;
+         margin-left: 50%;
+         transform: translate(-50%);
+     }
+     .flex-item>img{
+         transform: scale(0.4);
+         float:right;
+         display: flex;
+         justify-content: end;
+         align-items: center;
+         position:relative;
+         margin-top: -510px;
+         left: 180px; 
+         right: 0;
+     }
+     .tm-footer{
+         visibility: visible;
+         position: absolute;
+         margin-top: -3580px;
+         font-size: 20px;
+     }
+ }
+   
+ li.box.box-bg:hover{
+ border: 2px solid black;
+ }
+
+ p::first-letter{
+     font-size: 30px;
+     color:lightskyblue;
+ }
+ 
+ 
+ 
+ .tm-content-box,.tm-main-nav{
+     box-shadow: 2px 2px 12px gray;
+ }
+ 
+ .tm-banner{
+     border: 3px solid grey;
+ }
+ 
+ .carousel-item.active h2{
+     color: gainsboro;
+     letter-spacing: 5px;
+ }
+
+ body h2+p{
+     font-style: italic;
+ }
+ 
+ p{
+     text-indent: 17px;
+     line-height: 30px;
+ }
+
+ div.padding-medium ol li>a.text::after{
+    color: red; 
+    content: " New";
+    font-size: xx-small;
+    position: relative;
+    bottom: 5px;
+ }
+ 
+  
+  
+  div.padding-medium>ol>li a:visited{
+     border-bottom-color: blue;
+  }
+  
+  div.padding-medium>ol>li a:link{
+     text-decoration: none;
+     border-bottom: 1px solid;
+     border-color: white;
+  }
+ 
+ 
+ 
+ li.box.box-work{
+     padding: 5px 5px 0 5px ;
+ }
+ li.box.box-work p{
+ text-indent: 0;}
+ li.box.box-work:nth-child(even){
+     background-color: rgb(243, 237, 237);
+ }
+ 
+ 
+ div.mandatory-field::after{
+     content: " *";
+     color: red;
+ }
+
+ .btn.btn-primary.submit-btn{
+     background-color: white;
+     color: blue;
+ }
+ 
+ .btn.btn-primary.submit-btn:hover{
+     background-color: aqua;
+     color: white;
+ }
+ 
+ a.tm-nav-item-link:hover{
+     background-color: grey;
+ }
+  .box-bg:hover
+{
+    background-color:#87CEFA;
+}
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
