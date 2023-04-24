@@ -1,0 +1,45 @@
+.A
+{
+background-color:#E5E8E8; 
+padding:20px;
+
+}
+.B
+{
+background-color:white;
+height:3100px;
+width:500px;
+padding:20px;
+}
+
+h1,h3,p,h2,h4,h5,h6,ul,ol,b
+{
+text-align: left;
+}
+label {
+  display: inline;
+  padding:5px;
+    
+}
+table,td,th
+{
+ border: 1px solid #dddddd;
+ border-collapse: collapse;
+}
+.C,.D
+{
+background-color:#E5E8E8; 
+padding:20px;
+text-size:10px;
+}
+.E
+{
+text-align: right;
+
+}
+.F
+{
+background-color:#E5E8E8; 
+padding:20px;
+height:50px;
+}
