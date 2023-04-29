@@ -1,0 +1,108 @@
+*{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#modifyItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#root{
+    position: relative;
+}
+#alertMessage{
+    display: none;
+    position: relative;
+    /* position: absolute; */
+    z-index: 2;
+    margin: 0px auto;
+    padding: 2rem;
+    background-color: rgba(89, 87, 87, 0.616);
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+.listPage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.tweet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    margin: 5px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.tweet div{
+    margin-right:2rem;
+}
+
+/* liked tweets */
+#list1 li{
+    background-color: rgba(255, 133, 133, 0.452);
+}
+#navigationButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigationButtons button{
+    margin-right: 1rem;
+    margin-left:1rem;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color:white;
+    margin:0.2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+textarea{
+    height:7rem;
+    width: 15rem;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+#editor{
+    cursor: pointer;
+}
+#likedTweets{
+    display: none;
+}
