@@ -1,0 +1,64 @@
+/* START: Task 1 Styles */
+
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 2px solid black;
+    padding: 30px;
+  }
+  
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #phone-input {
+    border: 1px solid black;
+    padding:10px;
+    width: 300px;
+  }
+  #send-btn:hover{
+    background-color: #4CAF50;
+  }
+  
+  #send-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding:10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #send-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .notification-container {
+    display: block;
+  }
+  
+  .notification-container p {
+    padding: 20px;
+    color: white;
+  }
+
+  #task2 {
+    width: 25%;  
+  }
+
+  
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */
