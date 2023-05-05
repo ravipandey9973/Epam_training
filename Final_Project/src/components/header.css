@@ -1,0 +1,51 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+header h1 {
+  color: #454545;
+  font-family: "Impact", cursive;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+header h1:hover{
+  font-weight: bold;
+}
+header img{
+  width: 150px;
+  height:100px ;
+  margin-bottom: -80px;
+}
+
+.header-right p {
+  margin: 0;
+  font-size: 14px;
+  color: #454545;
+  text-align: left;
+}
+
+.header-right p:first-child {
+  font-weight: bold;
+}
+
+.header-right p:not(:first-child) {
+  margin-top: 5px;
+}
+p{
+  letter-spacing: 2px;
+}

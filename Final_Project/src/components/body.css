@@ -1,0 +1,130 @@
+table{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+      
+  }
+
+td {
+    border: 1px solid white;
+    padding: 5px 35px 20px 35px;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 7px;
+    box-shadow: 10px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Franklin Gothic Medium, 'Ebrima', Blippo, serif;
+  }
+  th{
+    border: 0.5px solid whitesmoke;
+    padding: 10px 25px 15px;
+    color: white;
+    background-color: #617143;
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: cursive;
+    
+  }
+ 
+
+button{
+    
+    padding: 5px;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: black;
+    font-family: poppins;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    min-width: 80px;
+    transition: color 0.3s linear;
+    position: relative;
+    border-radius: 10px;
+}
+button:hover{
+color: #B3005E;
+background-color: #86a3b8;
+padding: 15px;
+}
+
+
+
+input{
+  margin-left: -10px;
+  padding: 10px;
+  border: 3px solid #1574ee;
+  color: black;
+  border-radius: 20px;
+}
+input:focus{
+  background-color: #E8F3D6;
+}
+#lst{
+  margin-top: 20px;
+}
+#lst label{
+  margin-left: 520px;
+  margin-right: 10px;
+}
+.selected-row {
+  background-color: aquamarine;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+td a{
+  text-decoration: 'none';
+  cursor: 'pointer';
+}
+td a:hover{
+  text-decoration: 'none';
+  cursor: 'pointer';
+  color: brown;
+
+}
+label{
+
+  margin-left: 450px;
+  font-weight: bold;
+}
+ #stat{
+margin-left: 20px;
+}
+
+#pie{
+  margin-left: 180px;
+
+}
+#pie p{
+  margin-left: 55px;
+  color: blue;
+  text-decoration: underline;
+}
+#bar p{
+  margin-left: 60px;
+  color: blue;
+  text-decoration: underline;
+}
+
+tr {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms ease-in-out;
+}
+
+tr:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
